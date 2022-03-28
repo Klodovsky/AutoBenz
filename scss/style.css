@@ -15851,6 +15851,7 @@ input[type=number] {
 
 .header_area.menu_two .main_menu .navbar.navbar-expand-lg .nav.navbar-nav.navbar-right li .cart:before, .header_area.menu_two .main_menu .navbar.navbar-expand-lg .nav.navbar-nav.navbar-right li .cart:before, .red2_footer_area .subscribe_widget .input-group .input-group-append button.red {
   background: #ea2626 !important;
+  display: none;
 }
 
 .main_slider .slider_item .slider_text .main_btn.white:hover, .main_btn.red2, .main_btn.red2 {

@@ -2513,7 +2513,7 @@ button:focus {
   background: #ea2626;
 }
 .main_slider_area.bus_slider_area.repair_slider_area .slider_nav i:hover {
-  background: #ff2a39 !important;
+  background: #020d26 !important;
 }
 
 .main_slider {
@@ -3394,8 +3394,8 @@ button:focus {
 }
 .main_btn.border {
   background: transparent;
-  color: #ff2a39;
-  border-color: #ff2a39 !important;
+  color: #020d26;
+  border-color: #020d26 !important;
 }
 .main_btn.border:hover {
   color: #fff;
@@ -3913,13 +3913,13 @@ button:focus {
   margin-top: 20px;
 }
 .best_servicing_inner .twentytwenty-handle .twentytwenty-left-arrow {
-  border-right: 5px solid #ff2a39 !important;
+  border-right: 5px solid #020d26 !important;
   border: 5px inset transparent;
   margin-left: -14px;
   margin-top: -4px;
 }
 .best_servicing_inner .twentytwenty-handle .twentytwenty-right-arrow {
-  border-left: 5px solid #ff2a39 !important;
+  border-left: 5px solid #020d26 !important;
   border: 5px inset transparent;
   margin-right: -14px;
   margin-top: -4px;
@@ -12421,7 +12421,7 @@ input[type=number] {
   position: relative;
 }
 .subscribe_widget .input-group .input-group-append button.red:before {
-  border: #ff2a39 solid 6px;
+  border: #020d26 solid 6px;
 }
 .subscribe_widget .input-group .input-group-append button.red:hover {
   color: #fff;
@@ -12939,7 +12939,7 @@ input[type=number] {
 /*================== End green color css ===================*/
 /*================== Start baseColor color css ===================*/
 .top_menu, .header_area.menu_three .main_menu .navbar.navbar-expand-lg .nav.navbar-nav.navbar-right li .cart:before, .main_slider_area .slider_nav i:hover, .market_inner .car_img .nav li:hover, .client_slider .owl-dots .owl-dot:hover, .client_slider .owl-dots .owl-dot.active, .l_blog_item .blog_img .cat, .l_blog_item:hover .blog_content h3:before, .subscribe_widget .input-group .input-group-append button.red, .menu_two .navbar-light .navbar-toggler span, .menu_two .navbar-light .navbar-toggler.collapsed span, .menu_two .navbar-light .navbar-toggler span:before, .menu_two .navbar-light .navbar-toggler span:after, .auto_market_area .market_inner .market_text .nav.nav-tabs li a:before, .testi_slider .owl-dots .owl-dot.active, .testimonials_area.testi_red .testi_slider .owl-dots .owl-dot.active, .service_button .nav li a:hover, .service_button .nav li a.active, .find_us_red .find_us_text .list_finding .nav li a:hover:before, .red_truck_type .truck_type_slider .t_type_itme .t_type_text .left h4, .red_truck_type .truck_type_slider .owl-dots .owl-dot.active, .best_servicing_inner .twentytwenty-handle:before, .best_servicing_inner .twentytwenty-handle:after, .left_product_sidebar .accordion .card .card-body .price_wd_inner .ui-slider .ui-slider-handle, .left_product_sidebar .accordion .card .card-body .price_wd_inner .ui-slider .ui-slider-range, .pagination ul li:hover a, .pagination ul li.active a, .product_details_left .product_info a:hover, .specification_area .left_spec .nav a:hover, .specification_area .left_spec .nav a.active, .shipping .radio_group:checked + label:after, .shipping .radio_group:not(:checked) + label:after, .blog_item .blog_text .cat_area .cat_list a, .search_widget .input-group .input-group-append button, .s_comment_area .s_comment_inner .contact_form .form-group .submit_btn:hover, .main_slider.luxuary_slider .slider_item .slider_text p:before, .luxuary_video_area .car_video .play_btn, .get_cars_area .get_car_text h2:before, .header_area.menu_seven .main_menu .navbar.navbar-expand-lg .navbar-nav li.submenu .dropdown-menu li:hover a, .header_area.menu_seven .main_menu .navbar.navbar-expand-lg .navbar-nav li.submenu .dropdown-menu .submenu .dropdown-menu li:hover a, .header_area.menu_seven .main_menu .navbar.navbar-expand-lg .nav.navbar-nav.navbar-right li .cart:before, .contact_directly_area .contact_directly_bg .contact_info h2:before, .l_bus_item:hover .l_bus_text .read_btn:before {
-  background: #ff2a39 !important;
+  background: #020d26 !important;
 }
 
 .top_menu .top_menu_inner .right a i, .top_menu .top_menu_inner .right a span, .header_area.menu_three .main_menu .navbar.navbar-expand-lg .navbar-nav li:hover > a, .header_area.menu_three .main_menu .navbar.navbar-expand-lg .navbar-nav li.active > a, .market_inner .car_img .nav li h4, .market_text h3 span, .market_text .maket_item_inner .media .d-flex i, .b_f_item h4:hover, .l_collection_item .text_body h5, .l_collection_item:hover .text_body h4, .car_c_item:hover h5, .l_blog_item:hover .blog_content h3, .l_blog_item .blog_content .date:hover, .red_footer_area .about_widget i, .red_footer_area .link_widget .nav li:hover a, .red_footer_area .footer_copyright .copyright_inner .left p a, .red_footer_area .footer_copyright .copyright_inner .right .nav li:hover a, .auto_market_area .market_inner .market_text h3 span, .auto_market_area .market_inner .market_text .tab-pane .media .d-flex i, .team_item .people_text h4:hover, .car_about_area.about_counter .counter_inner .counter_item h4, .car_comparisom_item .comparisom_text h6, .compare_item .left h4:hover, .compare_item .right h4:hover, .contact_info_inner .contact_info_item i, .counter_inner .counter_item.red h4, .general_ques_inner .accordion .card .card-header button, .client_item p:after, .testi_item i, .testimonials_area.testi_red .testi_item i, .create_account_box .contact_form .form-group .forgot:hover, .create_account_box .contact_form .form-group h5 a:hover, .quickly_red .quickly_text_part h3 span, .quickly_red .quickly_item .media .d-flex i, .car_budget_red .car_budget_inner .tab-pane .taxi_text .car_details a i, .quickly_red .quickly_inner h3 span, .find_us_red .find_us_text h2 span, .find_us_red .find_us_text .list_finding .nav li a:hover, .truck_type_slider .t_type_itme.red .right .nav li i, .most_service_area.red_most_service .most_service_inner .most_service_text h6, .white_budget_feature .b_feature_inner .b_f_item .icon, .left_product_sidebar .accordion .card .card-header button, .car_found .right .grid a.active, .l_collection_item.grid_four .text_body h5, .l_collection_item.grid_four .text_body h4:hover, .l_collection_item.red:hover .text_body h4, .left_product_sidebar .accordion .card .card-body .wd_scroll li .creat_account input[type=checkbox]:checked ~ label, .left_product_sidebar .accordion .card .card-body .wd_scroll li .creat_account input[type=checkbox]:checked ~ label span, .clear_filter .clear, .product_list_item:hover .media-body h4, .product_list_item .media-body h6 span, .product_details_left .price_title .right h4, .cart_details_area .cart_details_inner .table tbody tr td.price i:hover, .cart_details_area .cart_details_inner .table tfoot .table_footer td:last-child .main_btn, .billing_form .select_check .create_box label, .blog_item .blog_text .cat_area a:hover, .blog_item .blog_text h3:hover, .blog_item .blog_text .view_btn:hover, .categories_widget .list li:hover > a, .categories_widget .list li:hover > a span, .categories_widget .list li:hover > a i, .news_widget .news_inner .media .media-body h4:hover, .author_details .media .media-body h4:hover, .s_comment_list .s_comment_list_inner .media .media-body h4:hover, .s_comment_list .s_comment_list_inner .media .media-body .reply_btn:hover, .main_slider.luxuary_slider .slider_item .slider_text h5, .header_area.navbar_fixed.menu_seven .main_menu .navbar.navbar-expand-lg .nav.navbar-nav > li:hover > a, .header_area.navbar_fixed.menu_seven .main_menu .navbar.navbar-expand-lg .nav.navbar-nav > li.active > a, .contact_directly_area .contact_directly_bg .contact_info p i, .border_btn.red, .l_bus_item:hover .l_bus_text h3, .l_bus_item:hover .l_bus_text .read_btn, .l_link_widget .nav li:hover a, .luxuary_copyright .l_copyright_inner .nav li a:hover, .bike_type_item h5, .bike_type_item:hover h3, .header_area.menu_five.menu_four .main_menu .navbar.navbar-expand-lg .navbar-nav li:hover > a, .header_area.menu_five.menu_four .main_menu .navbar.navbar-expand-lg .navbar-nav li.active > a, .expert_area .expert_inner .expert_item i, .car_about_inner .c_ab_text h6, .title_two h5, .pr_rate .media-left p a {
