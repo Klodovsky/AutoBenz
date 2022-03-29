@@ -1795,7 +1795,7 @@
 		margin-bottom: 34px;
 	}
 	.p_100 {
-		padding-top: 70px;
+		padding-top: 0px;
 		padding-bottom: 70px;
 	}
 	.pad_top{
@@ -1825,7 +1825,7 @@
 		text-align: center;
 	}
 	.drive_item .left .nav {
-		justify-content: center;
+		justify-content: left;
 	}
 	.drive_item .right .hourly_toggle .nice_select {
 		background: transparent;
