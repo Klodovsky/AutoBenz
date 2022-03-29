@@ -2058,6 +2058,7 @@ button:focus {
   width: 14px;
   height: 14px;
   z-index: 2;
+  display: none;
 }
 @media (min-width: 991px) {
   .menu_icon {

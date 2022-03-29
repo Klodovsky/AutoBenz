@@ -2123,6 +2123,8 @@
 	}
 	.car_found .right {
 		margin-top: 20px;
+		margin-bottom: -50px;
+    	padding-left: 175px;
 	}
 	.s_comment_list .s_comment_list_inner .media .media-body .media {
 		margin-left: -109px;
@@ -2711,4 +2713,11 @@
 	.nmtopmob{
 		margin-top: -40px !important;
 	}
+}
+@media (min-width: 460px){
+.car_found .right {
+	margin-top: 20px;
+	margin-bottom: -50px;
+    padding-left: 250px;
+}
 }
