@@ -716,7 +716,7 @@
 				max: 5000,
 				values: [ 75, 5000 ],
 				slide: function( event, ui ) {
-					$( "#amount2" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+					$( "#amount2" ).val( "CHF" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
 				}
 			});
 			$( "#amount2" ).val( "" + $( "#slider-range2" ).slider( "values", 0 ) +
@@ -730,15 +730,15 @@
 		if( $('#price_wd').length ){
 			$( "#price_wd" ).slider({
 			  range: true,
-			  min: 75,
-			  max: 5000,
-			  values: [ 75, 5000 ],
+			  min: 0,
+			  max: 379000,
+			  values: [ 0, 379000 ],
 			  slide: function( event, ui ) {
-				$( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+				$( "#amount" ).val( "CHF" + ui.values[ 0 ] + " - CHF" + ui.values[ 1 ] );
 			  }
 			});
-			$( "#amount" ).val( "$" + $( "#price_wd" ).slider( "values", 0 ) +
-			  " - $" + $( "#price_wd" ).slider( "values", 1 ) );
+			$( "#amount" ).val( "CHF " + $( "#price_wd" ).slider( "values", 0 ) +
+			  " - CHF " + $( "#price_wd" ).slider( "values", 1 ) );
 		}
 		
 	}

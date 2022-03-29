@@ -8475,6 +8475,7 @@ button:focus {
   height: 2px;
   background: #e8e8e8;
   margin-top: 10px;
+  margin-right: 20px;
 }
 .price_wd_inner .ui-slider .ui-slider-handle {
   border: none;
@@ -11178,7 +11179,7 @@ input[type=number] {
 .create_account_box .social_singup {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -10px;
+  margin-left: 108px;
   margin-right: -10px;
   margin-bottom: 32px;
 }

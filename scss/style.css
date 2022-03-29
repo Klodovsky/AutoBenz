@@ -13635,9 +13635,9 @@ input[type=number] {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-bottom: 32px;
+    margin-left: 108px;
+    margin-right: -10px;
+    margin-bottom: 32px;
 }
 
 .create_account_box .social_singup a {
@@ -13651,7 +13651,7 @@ input[type=number] {
 }
 
 .create_account_box .social_singup a i {
-  background: #0b3954;
+  background: #ed0d0d;
   width: 100%;
   color: #fff;
   line-height: 50px;
