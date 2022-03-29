@@ -13471,3 +13471,187 @@ ul {
 }
 
 /** market-btn **/
+.content-area {
+  padding: 0px 0 70px;
+}
+.main-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.prow {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+.pricing-1 .plan-list ul li {
+  list-style: none;
+  border-bottom: 1px dashed #eaeceb;
+  line-height: 42px;
+  font-size: 15px;
+  font-weight: 500;
+}
+/** Pricing 1 start **/
+.pricing-1 {
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 9;
+  background: #fff;
+  -webkit-transition: .9s;
+  transition: .9s;
+  overflow: hidden;
+  border-radius: 9px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-1:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(-9px);
+  transform: translateY(-9px);
+}
+
+.pricing-1:hover:before {
+  width: 100%;
+}
+
+.pricing-1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  -webkit-transition: .9s;
+  transition: .9s;
+  border-radius: 9px;
+}
+
+.pricing-1:hover .plan-header h5, .pricing-1:hover .plan-price sup, .pricing-1:hover .plan-price, .pricing-1:hover .plan-header p, .pricing-1:hover .plan-price span, .pricing-1:hover .plan-list ul, .pricing-1:hover .plan-list ul li i {
+  color: #fff!important;
+}
+
+.pricing-1:hover .plan-list ul li {
+  border-bottom: 1px dashed #ffffff63;
+}
+
+.pricing-1 .plan-header .plan-price span {
+  font-size: 16px;
+  color: #535353;
+  font-weight: 500;
+}
+
+.pricing-1 .plan-header {
+  padding: 40px 22px 0;
+  border-width: 1px;
+  position: relative;
+  text-align: center;
+}
+
+.pricing-1 .plan-header h5 {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.pricing-1 .plan-header .plan-price sup {
+  font-size: 24px;
+  position: relative;
+  top: -30px;
+  color: #535353;
+  font-weight: 500;
+}
+
+.pricing-1 .plan-header .plan-price {
+  font-size: 60px;
+  font-weight: 700;
+  position: initial;
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+  padding: 0;
+  width: 100%;
+}
+
+.pricing-1 .plan-header .plan-price span {
+  font-size: 16px;
+  color: #535353;
+  font-weight: 500;
+}
+
+.pricing-1 .plan-list {
+  border-width: 0 1px 1px;
+  padding: 20px 0 40px;
+}
+
+.pricing-1 .plan-list ul {
+  display: table;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.pricing-1 .plan-list ul li {
+  list-style: none;
+  border-bottom: 1px dashed #eaeceb;
+  line-height: 42px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.pricing-1 .plan-list ul li i {
+  margin-right: 12px;
+}
+
+.pricing-1 .plan-list ul li:last-child {
+  border-bottom: none;
+}
+
+.pricing-1 .plan-button {
+  padding-top: 20px;
+}
+
+.pricing-1 .pricing-btn {
+  border-radius: 3px;
+}
+
+.pricing-1:hover .pricing-btn{
+  background-color: #fff;
+  border: solid 1px #fff;
+}
+
+.pricing-1 .pricing-btn {
+  font-size: 15px;
+  border-radius: 3px;
+  font-weight: 500;
+  padding: 8px 30px 6px;
+}
+.pricing-btn {
+  padding: 7px 30px 5px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.pricing-1 .pricing-btn {
+  border: solid 1px #004e89;
+  color: #004e89;
+}
+
+.pricing-1:hover .pricing-btn {
+  color: #004e89;
+}
+
+.pricing-1::before {
+  background: #004e89;
+}
+
+.pricing-1 .plan-list ul li i{
+  color: #004e89;
+}
+
+.pricing-1 .plan-header .plan-price{
+  color: #004e89;
+}
