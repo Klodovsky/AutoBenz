@@ -2030,6 +2030,7 @@ button:focus {
   position: relative;
   padding: 0px;
   background-color: transparent !important;
+  border-bottom: 1px solid #29516930;
 }
 
 .main_menu .navbar.navbar-expand-lg .navbar-brand {

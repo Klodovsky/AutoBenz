@@ -2702,3 +2702,13 @@
 		margin-right: 7px;
 	}
 }
+
+@media (max-width: 460px){
+	.breadcrumb_area {
+		top: -2000px;
+		padding: 0%;
+	}
+	.nmtopmob{
+		margin-top: -40px !important;
+	}
+}
