@@ -90,7 +90,7 @@ button:focus {
 }
 
 .p_100 {
-  padding-top: 0px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -856,7 +856,7 @@ button:focus {
   padding: 0px 10px;
 }
 
- .header_area.menu_six .main_menu .navbar.navbar-expand-lg .navbar-nav li a:before {
+> .header_area.menu_six .main_menu .navbar.navbar-expand-lg .navbar-nav li a:before {
   display: none;
 }
 
@@ -1022,7 +1022,7 @@ button:focus {
   font-size: 16px;
 }
 
- .header_area.menu_seven .main_menu .navbar.navbar-expand-lg .navbar-nav li a:before {
+> .header_area.menu_seven .main_menu .navbar.navbar-expand-lg .navbar-nav li a:before {
   display: none;
 }
 
@@ -1362,7 +1362,7 @@ button:focus {
   line-height: 60px;
 }
 
- .header_area.menu_nine .main_menu .navbar.navbar-expand-lg .navbar-nav li a:before {
+> .header_area.menu_nine .main_menu .navbar.navbar-expand-lg .navbar-nav li a:before {
   display: none;
 }
 
@@ -2030,7 +2030,7 @@ button:focus {
   position: relative;
   padding: 0px;
   background-color: transparent !important;
-  border-bottom: 1px solid #29516930;
+  border-bottom: 1px solid #18435d45;
 }
 
 .main_menu .navbar.navbar-expand-lg .navbar-brand {
@@ -2334,6 +2334,9 @@ button:focus {
 .top_menu_nine .top_menu_inner .left .flag_drop .selector .dd.ddcommon .ddChild {
   width: 101px;
   border-radius: 0px;
+  width: 40px !important;
+  height: 105px !important;
+  margin-left: 25px !important;
 }
 
 .top_menu_nine .top_menu_inner .left .flag_drop .selector .dd.ddcommon .ddChild ul li {
@@ -11135,7 +11138,7 @@ button:focus {
 }
 
 .main_contact_inner.trade_container .nav-tabs .nav-item {
-  width: calc(100%);
+  width: calc(100% / 3);
   text-align: center;
 }
 
@@ -13636,9 +13639,9 @@ input[type=number] {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-    margin-left: 108px;
-    margin-right: -10px;
-    margin-bottom: 32px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 32px;
 }
 
 .create_account_box .social_singup a {
@@ -13652,7 +13655,7 @@ input[type=number] {
 }
 
 .create_account_box .social_singup a i {
-  background: #ed0d0d;
+  background: #0b3954;
   width: 100%;
   color: #fff;
   line-height: 50px;
