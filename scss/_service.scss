@@ -707,9 +707,9 @@
 					color: #fff;
 					border-right: 1px solid transparent;
 					&:hover, &.active{
-						background: #fff;
-						border-color: #fff;
-						color: $dip;
+						background: #0b3954;
+    					border-color: #f9f9f9;
+   						color: #f9f9f9;
 					}
 				}
 				&:last-child{
