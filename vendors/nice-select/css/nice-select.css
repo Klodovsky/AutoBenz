@@ -136,3 +136,42 @@
 
 .no-csspointerevents .nice-select.open .list {
   display: block; }
+
+  @media screen and (min-width: 0px) and (max-width: 426px) {
+  .nice-lan-select {
+    -webkit-tap-highlight-color: transparent;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px #3c4a541c;
+    box-sizing: border-box;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    height: 28px;
+    line-height: 40px;
+    outline: none;
+    padding-left: 6px;
+    padding-right: 8px;
+    margin-left: 40px;
+    position: relative;
+    text-align: left !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: auto;
+   }
+  }
+
+  @media screen and (min-width: 701px) and (max-width: 2000px) {
+    .nice-lan-select {
+     display: none;
+     }
+    }

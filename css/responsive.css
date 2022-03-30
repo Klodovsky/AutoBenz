@@ -2721,3 +2721,9 @@
     padding-left: 250px;
 }
 }
+
+@media (max-width:425px){
+	.hidden-lar {
+		display: none !important;
+	}
+}
