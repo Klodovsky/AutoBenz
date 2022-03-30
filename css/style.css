@@ -9113,7 +9113,7 @@ button:focus {
   margin-bottom: 60px;
 }
 .main_contact_inner.trade_container .nav-tabs .nav-item {
-  width: calc(100% / 3);
+  width: calc(100%);
   text-align: center;
 }
 .main_contact_inner.trade_container .nav-tabs .nav-item .nav-link {
@@ -10851,6 +10851,9 @@ button:focus {
 
 .map_area .mapBox {
   min-height: 505px;
+}
+.map_area .MinimapBox {
+  min-height: 200px;
 }
 
 .main_contact_inner {
@@ -13655,4 +13658,55 @@ ul {
 
 .pricing-1 .plan-header .plan-price{
   color: #004e89;
+}
+
+.advisor-wrap {
+  display: flex;
+  align-items: center;
+}
+.advisor-thumb {
+  width: 84px;
+  flex: 0 0 84px;
+  margin-right: 20px;
+  margin-left: 66px;
+}
+.advisor-info .phone {
+  margin-bottom: 6px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.map-container-2{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-2 iframe{
+  height: 150px;
+  padding: 4px 40px 0px;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+@media (min-width: 992px) {
+  .adjusted-mini-map {
+    margin-left: 14px;
+    margin-bottom: 55px;
+  }
+}
+@media (max-width: 767px) {
+
+.adjusted-mini-map {
+  margin-left: -370px;
+  margin-bottom: -75%;
+}
+.pt-minimap{
+  padding-top: 150px;
+}
 }

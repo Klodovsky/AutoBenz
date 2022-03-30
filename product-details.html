@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="vendors/icomoon-icon/style.css">
     <link rel="stylesheet" href="vendors/themify-icon/themify-icons.css">
     <!-- Extra Plugin CSS -->
@@ -131,8 +132,8 @@
                             <a href="#"><i class="icon-share1"></i>Share</a>
                             <a href="compare-car-step-1.html"><i class="icon-heart"></i>Add to favourites</a>
                             <a class="popup-with-zoom-anim" href="#getinfoPopup"><i class="icon-info1"></i>Request Info</a>
-                            <a class="popup-with-zoom-anim" href="#bookPopup"><i class="icon-print"></i>Print</a>
-                            <a class="popup-with-zoom-anim" href="#bookPopup"><i class="icon-eye"></i>13 Views</a>
+                            <a class="popup-with-zoom-anim" href="#"><i class="icon-print"></i>Print</a>
+                            <a class="popup-with-zoom-anim" href="#"><i class="icon-eye"></i>13 Views</a>
                            
                         </div>
                         <div class="product_d_slider">
@@ -450,7 +451,7 @@
 
     <div class="main_contact_inner form_container zoom-anim-dialog mfp-hide" id="getinfoPopup">
         <div class="flag_center_title wow animated fadeInUp" data-wow-delay="0.2s">
-            <h2><img src="img/icon/flag-2.png" alt="">Get Information</h2>
+            <h2><img src="img/icon/luxuary-tyre.png" alt="">Get Information</h2>
         </div>
         <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
             <div class="form-group col-md-4">
@@ -578,353 +579,66 @@
     </div>
     <div class="main_contact_inner trade_container zoom-anim-dialog mfp-hide" id="tradePopup">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <!-- <li class="nav-item">
+                <a class="nav-link" id="seller-tab" data-toggle="tab" href="#seller" role="tab" aria-controls="contact" aria-selected="true">Seller Detials</a>
+            </li> -->
             <li class="nav-item">
-                <a class="nav-link active" id="vehicle-tab" data-toggle="tab" href="#vehicle" role="tab" aria-controls="vehicle" aria-selected="true">Vehicle Information</a>
+                <a class="nav-link active" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="true">Contact Seller</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" id="condition-tab" data-toggle="tab" href="#condition" role="tab" aria-controls="condition" aria-selected="false">Vehicle Condition</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#" role="tab" aria-controls="contact" aria-selected="false">Seller Detials</a>
-            </li>
+            </li> -->
+
         </ul>
         <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="vehicle" role="tabpanel" aria-labelledby="vehicle-tab">
-                <form class="row contact_form form_trade" action="#" method="post">
+          
+            <div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="advisor-wrap mb-25">
+                    <div class="advisor-thumb">
+                       
+                        <img src="img/icons8-user-50.png">
+                      
+                    </div>
+                    <div class="advisor-info">
+                        <h5><a href="#">Hamil Alexander</a></h5>
+                       <div class="phone">
+                            <a href="tel:0987654321"><i class="icon-phone"></i> (+41) XXX-XXXX</a>
+                       </div>
+                       <div class="location">
+                        <i class="icon-location"></i> 1227 ACACIAS Switzerland.
+                   </div>
+                        <a href="seller-profile.html" class="profile">Seller Profile</a>
+                    </div>
+                    <!--Google map-->
+                    <div class="col-lg-4 adjusted-mini-map">
+                    <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 100px">
+                        <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                        style="border:0" allowfullscreen></iframe>
+                    </div>
+                     </div>
+                    <!--Google Maps-->
+                  
+                </div>
+                <form class="row contact_form form_trade pt-minimap" action="#" method="post">
                     <div class="form-group col-md-4">
-                        <input type="text" class="form-control" id="brand" name="brand" placeholder="Brand">
+                        <input type="text" class="form-control" id="name3" name="name" placeholder="Name">
                     </div>
                     <div class="form-group col-md-4">
-                        <input type="text" class="form-control" id="model2" name="model2" placeholder="Model">
+                        <input type="text" class="form-control" id="phone5" name="phone4" placeholder="Phone">
                     </div>
                     <div class="form-group col-md-4">
-                        <input type="text" class="form-control" id="year" name="year" placeholder="Build Year">
-                    </div>
-                    <div class="form-group col-md-4">
-                        <input type="text" class="form-control" id="transmission" name="transmission" placeholder="Transmission">
-                    </div>
-                    <div class="form-group col-md-4">
-                        <input type="text" class="form-control" id="mileage" name="mileage" placeholder="Mileage">
-                    </div>
-                    <div class="form-group col-md-4">
-                        <input type="number" class="form-control" id="pin" name="pin" placeholder="PIN">
-                    </div>
-                    <div class="form-group col-md-4">
-                        <input type="text" class="form-control" id="color" name="color" placeholder="Exterior color">
-                    </div>
-                    <div class="form-group col-md-4">
-                        <input type="text" class="form-control" id="color2" name="color2" placeholder="Interior color">
-                    </div>
-                    <div class="form-group col-md-4">
-                        <input type="text" class="form-control" id="owner" name="owner" placeholder="Owner">
+                        <input type="number" class="form-control" id="email4" name="email4" placeholder="Email">
                     </div>
                     <div class="form-group col-md-12">
-                        <div class='file-input'>
-                            <p>Upload Vehicle Pictures Here :</p>
-                            <input type='file'>
-                            <span class='button'>Choose File</span>
-                            <span class='label' data-js-label>No File chosen</span>
-                        </div>
+                        <textarea class="form-control" name="messages" id="messages" rows="1" placeholder="I am interested in VW Golf 2.0 TSI GTI Performance DSG (Limousine)..."></textarea>
                     </div>
                     <div class="form-group col-md-12">
-                        <button type="submit" value="submit" class="btn submit_btn red form-control">Continue</button>
+                        <button type="submit" value="submit" class="btn submit_btn red form-control">Send Message</button>
                     </div>
                 </form>
             </div>
-            <div class="tab-pane fade" id="condition" role="tabpanel" aria-labelledby="condition-tab">
-                <form action="#" class="form_trade">
-                    <div class="over_view_list_inner">
-                        <div class="row m-0 over_view_list_item tab_title">
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h3>Components</h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h3>Exellent</h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h3>Good</h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h3>Average</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-0 over_view_list_item">
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h4>Power Steering</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Exellent">
-                                    <input type="checkbox" name="powersteering" value="Power Steering">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Good">
-                                    <input type="checkbox" name="powersteering" value="Power Steering">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Average">
-                                    <input type="checkbox" name="powersteering" value="Power Steering">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-0 over_view_list_item">
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h4>Power Windows Front</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Exellent">
-                                    <input type="checkbox" name="powerwindow" value="Power Windows">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Good">
-                                    <input type="checkbox" name="powerwindow" value="Power Windows">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Average">
-                                    <input type="checkbox" name="powerwindow" value="Power Windows">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-0 over_view_list_item">
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h4>Power Windows Rear</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Exellent">
-                                    <input type="checkbox" name="powerrear" value="Power Rear">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Good">
-                                    <input type="checkbox" name="powerrear" value="Power Rear">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Average">
-                                    <input type="checkbox" name="powerrear" value="Power Rear">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-0 over_view_list_item">
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h4>Automatic Climate Control</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0" data-title="Exellent">
-                                <div class="details_part">
-                                    <input type="checkbox" name="control" value="Power Control">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Good">
-                                    <input type="checkbox" name="control" value="Power Control">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Average">
-                                    <input type="checkbox" name="control" value="Power Control">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-0 over_view_list_item">
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h4>Remote Fuel Lid Opener</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Exellent">
-                                    <input type="checkbox" name="fuel" value="Remote Fuel">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Good">
-                                    <input type="checkbox" name="fuel" value="Remote Fuel">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Average">
-                                    <input type="checkbox" name="fuel" value="Remote Fuel">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-0 over_view_list_item">
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h4>Low Fuel Warning Light</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Exellent">
-                                    <input type="checkbox" name="fuellight" value="Low Fuel Warning Light">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Good">
-                                    <input type="checkbox" name="fuellight" value="Low Fuel Warning Light">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Average">
-                                    <input type="checkbox" name="fuellight" value="Low Fuel Warning Light">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-0 over_view_list_item">
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h4>Accessory Power Outlet</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Exellent">
-                                    <input type="checkbox" name="poweroutlet" value="Accessory Power Outlet">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Good">
-                                    <input type="checkbox" name="poweroutlet" value="Accessory Power Outlet">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Average">
-                                    <input type="checkbox" name="poweroutlet" value="Accessory Power Outlet">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-0 over_view_list_item">
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h4>Trunk Light</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Exellent">
-                                    <input type="checkbox" name="trucklight" value="Trunk Light">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Good">
-                                    <input type="checkbox" name="trucklight" value="Trunk Light">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Average">
-                                    <input type="checkbox" name="trucklight" value="Trunk Light">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-0 over_view_list_item">
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h4>Vanity Mirror</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Exellent">
-                                    <input type="checkbox" name="mirror" value="Vanity Mirror">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Good">
-                                    <input type="checkbox" name="mirror" value="Vanity Mirror">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Average">
-                                    <input type="checkbox" name="mirror" value="Vanity Mirror">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-0 over_view_list_item">
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h4>Rear Reading Lamp</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Exellent">
-                                    <input type="checkbox" name="lamp" value="Rear Reading Lamp">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Good">
-                                    <input type="checkbox" name="lamp" value="Rear Reading Lamp">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Average">
-                                    <input type="checkbox" name="lamp" value="Rear Reading Lamp">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-0 over_view_list_item">
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h4>Rear Seat Headrest</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Exellent">
-                                    <input type="checkbox" name="rearseat" value="Rear Seat Headrest">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Good">
-                                    <input type="checkbox" name="rearseat" value="Rear Seat Headrest">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Average">
-                                    <input type="checkbox" name="rearseat" value="Rear Seat Headrest">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-0 over_view_list_item">
-                            <div class="col-lg-3 p-0">
-                                <div class="title_part">
-                                    <h4>Color Sceme</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Exellent">
-                                    <input type="checkbox" name="color" value="Color Sceme">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Good">
-                                    <input type="checkbox" name="color" value="Color Sceme">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 p-0">
-                                <div class="details_part" data-title="Average">
-                                    <input type="checkbox" name="color" value="Color Sceme">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button type="submit" value="submit" class="btn submit_btn red form-control">Contact</button>
-                </form>
-            </div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+            <div class="tab-pane fade" id="seller" role="tabpanel" aria-labelledby="seller-tab">
                 <form class="row contact_form form_trade" action="#" method="post">
                     <div class="form-group col-md-4">
                         <input type="text" class="form-control" id="name3" name="name" placeholder="Name">
@@ -939,7 +653,7 @@
                         <textarea class="form-control" name="messages" id="messages" rows="1" placeholder="Message"></textarea>
                     </div>
                     <div class="form-group col-md-12">
-                        <button type="submit" value="submit" class="btn submit_btn red form-control">Submit Information</button>
+                        <button type="submit" value="submit" class="btn submit_btn red form-control">Submist Information</button>
                     </div>
                 </form>
             </div>
@@ -965,6 +679,14 @@
     <script src="vendors/nice-scroll/jquery.nicescroll.min.js"></script>
     <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
     <script src="vendors/animate-css/wow.min.js"></script>
+           <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqrqPZOVegy1VIdyIcndxZY9YGoK-x0Yo&callback=initMap"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/map-active.js"></script>
+       <!-- contact js -->
+       <script src="js/jquery.form.js"></script>
+       <script src="js/jquery.validate.min.js"></script>
+       <script src="js/contact.js"></script>
 
     <script src="js/theme-dist.js"></script>
 </body>

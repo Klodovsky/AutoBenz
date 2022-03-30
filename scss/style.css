@@ -11135,7 +11135,7 @@ button:focus {
 }
 
 .main_contact_inner.trade_container .nav-tabs .nav-item {
-  width: calc(100% / 3);
+  width: calc(100%);
   text-align: center;
 }
 
