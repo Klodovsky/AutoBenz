@@ -15812,6 +15812,7 @@ input[type=number] {
 
 .main_btn.red, .feature_car_area .f_car_slider .car_arrow .owl-prev:hover, .feature_car_area .f_car_slider .car_arrow .owl-next:hover, .main_btn.border:hover, .main_btn.red.border:hover, .submit_btn.red, .creat_account input[type=checkbox]:checked ~ .check, .car_budget_red .car_budget_inner .nav.nav-tabs li a, .product_list_right .main_btn + .main_btn:hover, .cart_details_area .cart_details_inner .table tfoot .table_footer td:last-child .main_btn:hover, .cart_box .cart_list_inner .list_itme .right .form-group .submit_btn:hover, .tag_widget .nav li a:hover, .single_blog_inner .blog_item .blog_text .tags .nav li a:hover, .border_btn:hover, .border_btn.red:hover, .pr_rate .media-left p a:before {
   background: #0b3954;
+  border: 1px solid;
   border-color: #f9f9f9;
 }
 

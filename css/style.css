@@ -13713,6 +13713,6 @@ ul {
 
 @media (max-width:425px){
 	.hidden-lar {
-		display: none !important;
+		/* display: none !important; */
 	}
 }

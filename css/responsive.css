@@ -1930,7 +1930,7 @@
 		font: 500 16px/28px "Barlow", sans-serif;
 	}
 	.l_collection_item.grid_four {
-		max-width: 255px;
+		max-width: 350px;
 	}
 	.compare_item {
 		display: block !important;
@@ -2724,6 +2724,47 @@
 
 @media (max-width:425px){
 	.hidden-lar {
-		display: none !important;
+		/* display: none !important; */
 	}
+}
+/* Mobile S 320px */
+
+@media (min-width: 300px) and (max-width: 350px){
+	.nmtopmob {
+		margin-top: -40px !important;
+		width: 131% !important;
+	}
+	.header_area {
+		position: absolute;
+		left: 0px;
+		width: 127% !important;
+		top: 0px;
+		z-index: 30;
+	}
+	.ab_footer {
+		background: url(../img/ab-footer-bg.jpg) no-repeat scroll center center;
+		background-size: cover;
+		width: 112%;
+	}
+	}
+
+/* Mobile M 375px */
+
+@media  (min-width: 351px) and (max-width: 379px){
+.nmtopmob {
+    margin-top: -40px !important;
+    width: 112% !important;
+}
+.header_area {
+    position: absolute;
+    left: 0px;
+    width: 108% !important;
+    top: 0px;
+    z-index: 30;
+}
+.ab_footer {
+    background: url(../img/ab-footer-bg.jpg) no-repeat scroll center center;
+    background-size: cover;
+    width: 112%;
+}
 }
